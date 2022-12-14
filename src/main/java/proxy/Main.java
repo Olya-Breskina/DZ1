@@ -2,7 +2,7 @@ package proxy;
 
 public class Main {
     public static void main(String[] arg){
-        BD bd=new RealBD("https://github.com/Olya-Breskina?tab=repositories");
+        BD bd=new ProxyBD("qqq");
         bd.connectionToBD();
     }
 }
