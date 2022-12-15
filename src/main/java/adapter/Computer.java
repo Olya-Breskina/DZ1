@@ -1,6 +1,4 @@
-package Adapter;
-
-import sun.awt.geom.AreaOp;
+package adapter;
 
 public class Computer {
     public void connect(ComputerInterface computerInterface){

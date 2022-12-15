@@ -1,5 +1,5 @@
-package Adapter;
+package adapter;
 
 public interface USBAdapter {
-    void read();
+        void read();
 }

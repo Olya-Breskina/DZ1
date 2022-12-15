@@ -1,8 +1,7 @@
-package Factory;
+package factory;
 
-public class CoffeeMachine {
-    public void makeCoffee(Coffee coffee)
-    {
+public class CoffeeMachineFactory {
+    public void makeCoffee(Coffee coffee) {
         System.out.println("идет процесс приготовления кофе");
     }
 }

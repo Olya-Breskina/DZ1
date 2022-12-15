@@ -1,4 +1,4 @@
-package Adapter;
+package adapter;
 public class USB implements ComputerInterface{
     @Override
     public void read() {

@@ -1,12 +1,12 @@
-package Factory;
+package factory;
 
 public class СontrolPanel {
-    private CoffeeMachine coffeeMachine;
-    public СontrolPanel (CoffeeMachine coffeeMachine){
-        this.coffeeMachine=coffeeMachine;
+    private CoffeeMachineFactory coffeeMachineFactory;
+    public СontrolPanel (CoffeeMachineFactory coffeeMachineFactory){
+        this.coffeeMachineFactory = coffeeMachineFactory;
     }
     public void start(TypeOfCoffee typeOfCoffee){
-        CoffeeMachine coffeeMachine=new CoffeeMachine();
+        CoffeeMachineFactory coffeeMachineFactory =new CoffeeMachineFactory();
         Coffee coffee=CoffeeInCoffeeMachine.getCoffee(typeOfCoffee);
         addWater(coffee.amountOfWater());
 
